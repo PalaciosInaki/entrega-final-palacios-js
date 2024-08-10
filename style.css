@@ -1,0 +1,177 @@
+/* ///////////////////////Productos//////////////////////////////////*/
+.productos-main {
+    }
+  
+  .productos-main h3 {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    width: 70%;
+    margin: auto;
+    padding: 10px; }
+  
+  .productos-main .productos {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .productos-main .productos .prod {
+      width: 350px;
+      height: 485px;
+      text-align: center;
+      padding: 0%;
+      margin-left: 15px;
+      margin-right: 15px;
+      border-radius: 6px;
+      background: white;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+      transition: all 400ms ease;
+      cursor: pointer; }
+      .productos-main .productos .prod img {
+        max-width: 333px;
+        height: 280px; }
+      .productos-main .productos .prod button {
+        background-color: black;
+        font-family: "Poppins", sans-serif;
+        color: #9FCC2E;
+        font-size: medium;
+        border-radius: 5px;
+        height: 30px;
+        width: 160px;
+        margin-top: 15px;
+        cursor: pointer; }
+    .productos-main .productos .prod:hover {
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+      transform: translateY(-3%); }
+
+.div-prod{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comprar {
+  width: 100px;
+  height: 35px;
+  color: rgb(255, 255, 255);
+  background-color: orangered;
+  border-radius: 10%;
+  border-color: orangered;
+}
+
+
+
+/* //////////////////////////// CARRITO MODAL //////////////////////////////////////*/
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav h1{
+  font-size: 30px;
+}
+nav button{
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+}
+
+.modalContainer {
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+}
+
+.modalContainer::-webkit-scrollbar {
+  display: none;
+
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: orangered;
+  color: white;
+  width: 100%;
+}
+
+.modal-header-title {
+  justify-content: start;
+}
+
+.modal-header-button {
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+}
+
+.modalContentContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #ebeaea;
+
+}
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 250px;
+  text-align: center;
+  padding: 0%;
+  margin: 1px;
+  border-radius: 6px;
+  background: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modal-content img {
+  height: 230px;
+  width: 230px;
+}
+
+.modal-content .eliminar-producto{
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.total-container{
+  text-align: center;
+  border-top: 2px solid #000;
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  font-size: 150%;
+}
+
+/* /////////////////////////////// Contador carrito ///////////////////////////*/
+
+.contador-carrito{
+  background-color: orangered;
+  color: white;
+  border-radius: 30%;
+  font-size: 12px;
+  padding: 3px;
+  top: 55px;
+  right: 14px;
+  position: absolute;
+  display: none;
+  width: 12px;
+}
