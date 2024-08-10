@@ -1,4 +1,4 @@
-const productos = [
+/*  const productos = [
     {
         nombre: "Grafica RTX 4080",
         id: 1,
@@ -48,4 +48,4 @@ const productos = [
         img: './images/88f86d09-ad01-434c-8084-50547eb5e83b.ca6fade901fb02d0688b3239f4a13794.webp',
     },
 
-];
+];  */

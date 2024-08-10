@@ -1,4 +1,4 @@
-const pintarProductos = () => {
+const pintarProductos = (productos) => {
 
     productos.forEach((producto) => {
         let cardProducto = document.createElement('div');
