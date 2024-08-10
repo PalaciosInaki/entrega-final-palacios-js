@@ -48,7 +48,7 @@ const pintarProductos = () => {
             guardadoLocal();
     
             Toastify({
-                text: "Agregado al carrito",
+                text: "Agregado al Carrito",
                 position: "right",
                 gravity: "bottom",
                 style: {
