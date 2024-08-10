@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     getProducts();
 });
 
-let carrito = JSON.parse(localStorage.getItem("compra")) || [];
+
 
 
 

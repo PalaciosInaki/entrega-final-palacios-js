@@ -1,3 +1,5 @@
+let carrito = JSON.parse(localStorage.getItem("compra")) || [];
+
 const pintarCarrito = () => {
     modalContainer.innerHTML = " ";
     modalContainer.style.display = "flex";
