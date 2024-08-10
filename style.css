@@ -1,10 +1,12 @@
+
+
 /* ///////////////////////Productos//////////////////////////////////*/
 .productos-main {
     }
   
   .productos-main h3 {
     text-align: center;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #000000;
     width: 70%;
     margin: auto;
     padding: 10px; }

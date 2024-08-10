@@ -7,6 +7,7 @@ const contadorCarrito = document.getElementById("contadorCarrito");
 let carrito = JSON.parse(localStorage.getItem("compra")) || [];
 
 
+
 productos.forEach((producto) => {
     let cardProducto = document.createElement('div');
     cardProducto.className = "div-prod"
@@ -53,6 +54,17 @@ productos.forEach((producto) => {
 
         carritoCounter();
         guardadoLocal();
+
+        Toastify({
+            text: "Agregado al carrito",
+            position: "right",
+            gravity: "bottom",
+            style: {
+              background: "linear-gradient(to right, #00b09b, #96c93d)",
+            }
+          }).showToast();
+
+
     }) ; 
 }); 
 

@@ -50,7 +50,18 @@ const pintarCarrito = () => {
         eliminar.className = "eliminar-producto";
         carritoContent.append(eliminar);
 
-        eliminar.addEventListener("click", eliminarProducto);
+        eliminar.addEventListener("click", () => {
+
+            eliminarProducto();
+            Toastify({
+                text: "Borrado del carrito",
+                position: "right",
+                gravity: "bottom",
+                style: {
+                  background: "linear-gradient(to right, #f14d4d, #b40a0a)",
+                }
+              }).showToast();
+        });
 
     });
 
