@@ -11,10 +11,6 @@ document.addEventListener('DOMContentLoaded', () =>{
 
 
 
-
-
-
-
 /* set */
 const guardadoLocal = () =>{
     localStorage.setItem("compra", JSON.stringify(carrito))
