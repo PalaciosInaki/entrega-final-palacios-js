@@ -31,7 +31,7 @@ const pintarCarrito = () => {
 
         let carritoContent = document.createElement("div")
         carritoContent.className = "modal-content"
-        carritoContent.dataset.id = producto.id; // Almacena el id del producto
+        carritoContent.dataset.id = producto.id;
 
         carritoContent.innerHTML = `
            <img src="${producto.img}">
